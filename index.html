@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="https://fonts.googleapis.com/css?family=Allerta|Questrial|Titan+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Questrial|Titan+One" rel="stylesheet">
 	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
 	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
 	<link rel="stylesheet" href="css/animate.min.css"> <!-- Animations -->
@@ -40,8 +40,8 @@
 	</nav> <!-- .cd-3d-nav-container -->
 
 	<header class="cd-header">
-		<a href="#0" class="cd-logo wow fadeInDown"><img src="img/logo-190.png" alt="Logo"></a>
-		<a href="#0" class="cd-3d-nav-trigger wow flip" data-wow-delay="1s" data-wow-iteration="5">
+		<a href="#0" class="cd-logo wow fadeInDown" data-wow-delay="0.5s"><img src="img/logo-190.png" alt="Logo"></a>
+		<a href="#0" class="cd-3d-nav-trigger wow flip" data-wow-delay="0.5s" data-wow-iteration="5">
 			Menu
 			<span></span>
 		</a>
@@ -51,13 +51,13 @@
 		<div class="encabezado">
 			<h1><span class="name">eN PiTALiTO</span> encuentras páginas web con lo que tú necesitas.</h1>
 			<h3>¿Quieres anunciar una página web? </h3>
-			<button class="button wow bounceIn"><span>Averigua cómo </span></button>
+			<button class="button wow bounceIn" data-wow-delay="0.5s"><span>Averigua cómo </span></button>
 		</div>
 		<div class="intro">
-			<h2 >Conoce las páginas web recomendadas de esta semana:</h2>
+			<h2>Conoce las páginas web recomendadas de esta semana:</h2>
 		</div>
 	</main>
-	<section id="galeria" class="galeria wow fadeIn">
+	<section id="galeria" class="galeria wow fadeIn" data-wow-delay="0.5s">
 		<!-- FILA UNO-->
 		<article>
 			<a target="_blank" href="http://www.naturalonelife.com.co">
@@ -80,6 +80,7 @@
 		<article>
 			<a target="_blank" href="https://www.campusmvp.es/catalogo/Product-SharePoint-2013-de-principio-a-fin-(PDF)_176.aspx">
 				<figure>
+					<figcaption>OTRO</figcaption>
 					<img src="img/libro-Sharepoint-2013.jpg" alt="" />
 					<figcaption>Libro SharePoint 2013</figcaption>
 				</figure>
@@ -98,6 +99,7 @@
 		<article>
 			<a target="_blank" href="https://www.campusmvp.es/catalogo/Product-Desarrollo-de-aplicaciones-de-gesti%C3%B3n-empresariales-con-Velneo---Curso-Oficial_238.aspx">
 				<figure>
+					<figcaption>OTRO</figcaption>
 					<img src="img/curso-velneo-online.png" alt="" />
 					<figcaption>Curso online de Velneo</figcaption>
 				</figure>
@@ -106,6 +108,7 @@
 		<article>
 			<a target="_blank" href="https://www.campusmvp.es/catalogo/Product-Desarrollo-de-aplicaciones-con-la-plataforma-Java_231.aspx">
 				<figure>
+					<figcaption>OTRO</figcaption>
 					<img src="img/curso-java-online.jpg" alt="" />
 					<figcaption>Curso online de Java</figcaption>
 				</figure>
@@ -115,6 +118,7 @@
 		<article>
 			<a target="_blank" href="https://www.campusmvp.es/catalogo/Product-Especialista-en-programaci%C3%B3n-Web-con-HTML5,-CSS3,-JavaScript-y-jQuery_235.aspx">
 				<figure>
+					<figcaption>OTRO</figcaption>
 					<img src="img/curso-front-end.png" alt="" />
 					<figcaption>Curso Front End</figcaption>
 				</figure>
@@ -123,6 +127,7 @@
 		<article>
 			<a target="_blank" href="https://www.campusmvp.es/catalogo/Product-Desarrollo-de-aplicaciones-m%C3%B3viles-para-iPhone-y-Android-con-Xamarin_160.aspx">
 				<figure>
+					<figcaption>OTRO</figcaption>
 					<img src="img/curso-xamarin.jpg" alt="" />
 					<figcaption>Curso de Xamarin</figcaption>
 				</figure>
@@ -131,6 +136,7 @@
 		<article>
 			<a target="_blank" href="https://www.campusmvp.es/catalogo/Product-Programaci%C3%B3n-con-ASP.NET-SignalR-2.0-(PDF)_217.aspx">
 				<figure>
+					<figcaption>OTRO</figcaption>
 					<img src="img/Libro-SignalR.jpg" alt="" />
 					<figcaption>Libro de SignalR</figcaption>
 				</figure>
@@ -140,6 +146,7 @@
 		<article>
 			<a target="_blank" href="https://www.campusmvp.es/catalogo/Product-Desarrollo-Web-con-ASP.NET-Core-2-MVC_227.aspx">
 				<figure>
+					<figcaption>OTRO</figcaption>
 					<img src="img/curso-asp-net-core-mvc.png" alt="" />
 					<figcaption>Curso ASP.NET Core MVC</figcaption>
 				</figure>
@@ -148,6 +155,7 @@
 		<article>
 			<a target="_blank" href="https://www.campusmvp.es/catalogo/Product-Especialista-en-programaci%C3%B3n-de-bases-de-datos-con-SQL-Server_236.aspx">
 				<figure>
+					<figcaption>OTRO</figcaption>
 					<img src="img/curso-sql-server.png" alt="" />
 					<figcaption>Curso de SQL Server</figcaption>
 				</figure>
@@ -163,45 +171,67 @@
 			</a>
 		</article>
 	</section>
-
+	<!-- seccion de los cuadros full viewport -->
 	<section class="ofertas">
+		<!-- arriba a la izquierda -->
 		<article class="secciones primera">
-			<i class="fas fa-shopping-cart wow fadeInLeft"></i>
-			<h4>¿Qué producto o servicio buscas?</h4>
+			<div>
+				<i class="fas fa-shopping-cart wow fadeInLeft"></i>
+				<h4>¿Te gustaría encontrar más productos o servicios?</h4>
+			</div>
 			<hr>
-			<p>Encuentra todo el comercio de Pitalito que ya tiene sus páginas web. Ven y busca lo que necesitas. ¡Es como salir
-				de compras a un centro comercial!</p>
-			<button class="button wow bounceIn"><span>Comencemos</span></button>
+			<div>
+				<p>Encuentra todo el comercio de Pitalito que ya tiene sus páginas web. Ven y busca lo que necesitas. ¡Es como
+					salir de compras a un centro comercial!</p>
+				<button class="button wow bounceIn"><span>Conoce más</span></button>
+			</div>
 		</article>
+		<!-- arriba a la derecha -->
 		<article class="secciones segunda">
-			<i class="fas fa-chart-line wow fadeInLeft"></i>
-			<h4>¿Y tu negocio todavía no está en internet?</h4>
+			<div>
+				<i class="fas fa-chart-line wow fadeInLeft"></i>
+				<h4>Y tu negocio, ¿todavía no tiene su página web?</h4>
+			</div>
 			<hr>
-			<p>Te ofrecemos la forma más fácil de conseguir tu página web. Además, podrás publicarla aquí mismo, promocionarla y
-				conseguir más clientes.</p>
-			<button class="button wow bounceIn"><span>Solicítala hoy</span></button>
+			<div>
+				<p>Te ofrecemos la forma más fácil de conseguir tu página web. Además, podrás publicarla aquí mismo, promocionarla
+					y conseguir más clientes.</p>
+				<button class="button wow bounceIn"><span>Solicítala hoy</span></button>
+			</div>
 		</article>
+		<!-- abajo a la izquierda -->
 		<article class="secciones tercera">
-			<i class="fas fa-users wow fadeInLeft"></i>
-			<h4>Nos esforzamos por generar confianza</h4>
+			<div>
+				<i class="fas fa-users wow fadeInLeft"></i>
+				<h4>Tenemos las recomendaciones para animarte a participar</h4>
+			</div>
 			<hr>
-			<p>Puedes conocer a clientes y vendedores que depositaron su confianza en nosotros. Entérate porque seguimos siendo
-				su mejor opción para sus negocios</p>
-			<button class="button wow bounceIn"><span>Sus opiniones</span></button>
+			<div>
+				<p>Puedes conocer a clientes y vendedores que depositaron su confianza en nosotros. Entérate porque somos una de
+					las mejores opciones para anunciar sus negocios.</p>
+				<button class="button wow bounceIn"><span>Lee sus opiniones</span></button>
+			</div>
 		</article>
+		<!-- abajo a la derecha -->
 		<article class="secciones cuarta">
-			<i class="fas fa-code-branch wow fadeInLeft"></i>
-			<h4>¿Quieres saber más de <span class="name">eN PiTALiTO</span>?</h4>
+			<div>
+				<i class="fas fa-code-branch wow fadeInLeft"></i>
+				<h4>¿Quieres conocer mejor el proyecto <span class="name">eN PiTALiTO</span>?</h4>
+			</div>
 			<hr>
-			<p>Conoce más de nuestra empresa. Además, entérate cómo te puedes beneficiar adquiriendo una página web, alquilando
-				un espacio para anunciarte y otras opciones más</p>
-			<button class="button wow bounceIn"><span>Sobre nosotros</span></button>
+			<div>
+				<p>Conoce más de nuestra empresa. Además, entérate cómo te puedes beneficiar adquiriendo una página web, alquilando
+					un espacio para anunciarte y otras opciones más.</p>
+				<button class="button wow bounceIn"><span>Sobre nosotros</span></button>
+			</div>
 		</article>
 	</section>
 
 	<footer>
 		<h3>Pídenos la información que necesites para dar el paso al mundo digital de los negocios:</h3>
-		<button class="button-footer wow bounceIn">Contacto</button>
+		<button class="button wow bounceIn"><span>Contacto</span></button>
+		<a class="correo" href="mailto:informacion@enpitalito.com?Subject=Por%20favor%20necesito%20más%20información%20" target="_top"><i class="fa fa-mail-bulk"></i> informacion@enpitalito.com</a>
+		<p class="telefono"><i class="fa fa-phone-volume"></i> +57 320 249 2786</p>
 		<ul id="socialIcons">
 			<li><a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
 			<li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
@@ -209,9 +239,7 @@
 			<li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
 			<li><a href="#"><i class="fab fa-whatsapp" aria-hidden="true"></i></a></li>
 		</ul>
-
-		<p class="creditos">&#169 En Pitalito. Sitio diseñado por <a href="https://julianfran.co">Julian Franco</a> <i class="fas fa-mouse-pointer"></i>
-		</p>
+		<p class="creditos">&#169 En Pitalito. Sitio diseñado por <i class="fas fa-at"><a href="https://julianfran.co">Julian	Franco</a></i></p>
 	</footer>
 
 
