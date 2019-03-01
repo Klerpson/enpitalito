@@ -1,12 +1,7 @@
-3D Rotating Navigation
+En Pitalito
 =========
 
-A 3D rotating navigation, powered by CSS transformations.
+Es un proyecto donde quiero atender la necesidad de los pequeños negocios, que no pueden pagar una página de internet al precio que cobra un diseñador web. Así me hago disponible para vender páginas web estáticas prediseñadas con fácil personalización, mediante la herramienta jekyll. 
 
-[Article on CodyHouse](http://codyhouse.co/gem/3d-rotating-navigation/)
+[julianfranco](http://julianfran.co/)
 
-[Demo](http://codyhouse.co/demo/3d-rotating-navigation/)
-
-Icons by [Vlad Cristea](https://dribbble.com/GraphicDelivery) available for free download on [GraphicBurger](http://graphicburger.com/cicons-40-outline-icons/)
- 
-[Terms](http://codyhouse.co/terms/)
